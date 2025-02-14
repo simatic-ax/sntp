@@ -3,7 +3,7 @@ name: "@simatic-ax/sntp"
 version: 0.0.0-placeholder
 author: Siemens AG
 # Description will be displayed in the apax extension
-description: Provide a NTP server on a S7-1500 PLC for time synchronization 
+description: Provide a NTP server on a S7-1500 PLC for time synchronization
 type: lib
 #URL to the repository
 repository:
@@ -24,6 +24,11 @@ apaxVersion: 3.4.2
 devDependencies:
   '@ax/sdk': 2411.1.0
   "@simatic-ax/snippetscollection": 1.0.0
+
+dependencies:
+  "@ax/simatic-1500-clocks": ^8.0.0
+  "@ax/simatic-1500-communication": ^8.0.0
+  "@ax/system-serde": ^8.0.0
 
 # Project variables
 variables:

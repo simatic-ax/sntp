@@ -4,7 +4,7 @@ This repository is still a template, the library will be published soon!
 
 ## Description
 
-*please insert a description of the library*
+This library provides functionality to create a NTP (Network time protocol) server on a SIMATIC S7-1500 PLC. This server serves the current PLC time to devices (drive controllers, distributed IO, HMI systems, etc.) in the same network to synchronize to.
 
 ## Getting started
 
@@ -23,17 +23,17 @@ Add the namespace in your ST code:
 Using Simatic.Ax.sntp;
 ```
 
-| Classes | Description         |
-|---------|---------------------|
-| *xyz*     | *description for xyz* |
+This library is based on the LSTNP library for the S7-1500 in the context of TIA Portal. You can find the original library here:
+
+[https://support.industry.siemens.com/cs/document/109780503](https://support.industry.siemens.com/cs/document/109780503/libraries-for-communication-for-simatic-controllers?dti=0&lc=en-WW)
 
 | Functions   | Description             |
 |-------------|-------------------------|
-| *xyz*       | *description for*xyz** |
+| LSNTP_typeTimestamp | Convert timestamp from LDATE_AND_TIME to NTP timestamp |
 
 | Function Blocks | Description           |
 |-----------------|-----------------------|
-| *xyz*           | *description for xyz* |
+| LSNTP_Server | Create and run a NTP server |
 
 ## Contribution
 
