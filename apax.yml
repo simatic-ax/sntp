@@ -1,9 +1,9 @@
 # General information
-name: "sntp"
+name: "@simatic-ax/sntp"
 version: 0.0.0-placeholder
 author: Siemens AG
 # Description will be displayed in the apax extension
-description: <add your description here, which will be shown in the apax extension>
+description: Provide a NTP server on a S7-1500 PLC for time synchronization 
 type: lib
 #URL to the repository
 repository:

@@ -1,5 +1,7 @@
 # @simatic-ax/sntp
 
+This repository is still a template, the library will be published soon!
+
 ## Description
 
 *please insert a description of the library*
