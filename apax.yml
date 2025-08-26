@@ -22,9 +22,9 @@ installStrategy: strict
 apaxVersion: 3.4.2
 # Dependencies
 catalogs:
-  "@ax/simatic-ax": ^2504.0.0
+  "@ax/simatic-ax": ^2504.1.1
 devDependencies:
-  '@ax/sdk': ^2504.0.0
+  '@ax/sdk': ^2504.1.1
   "@simatic-ax/snippetscollection": ^1.0.0
 
 dependencies:
