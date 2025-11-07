@@ -10,7 +10,7 @@ jobs:
     secrets:
       APAX_TOKEN: ${{ secrets.APAX_TOKEN }}
       DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-      APAX_SIGNKEY: ${{ secrets.APAX_SIGNKEY }}
+      APAX_SIGNKEY: ${{ secrets.APAX_SIGNKEY_V2 }}
 
     with:
       VERSION: ${{ github.ref_name }} # package version which will be created
