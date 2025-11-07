@@ -23,12 +23,12 @@ apaxVersion: 3.4.2
 # Dependencies
 devDependencies:
   '@ax/sdk': 2510.0.0
-  "@simatic-ax/snippetscollection": 1.0.0
+  "@simatic-ax/snippetscollection": 1.1.0
 
 dependencies:
-  "@ax/simatic-1500-clocks": ^10.0.0
-  "@ax/simatic-1500-communication": ^10.0.0
-  "@ax/system-serde": ^10.0.0
+  "@ax/simatic-clocks": ^11.0.0
+  "@ax/simatic-communication": ^11.0.0
+  "@ax/system-serde": ^10.2.0
 
 # Project variables
 variables:

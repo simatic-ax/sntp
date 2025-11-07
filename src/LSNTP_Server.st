@@ -30,8 +30,8 @@
 // 05.00.00 | 29.10.2024 | Contiweb B.V.          | Migration to Simatic AX
 //=============================================================================
 
-USING Siemens.Simatic.S71500.Clocks;
-USING Siemens.Simatic.S71500.Communication.OUC;
+USING Siemens.Simatic.Clocks;
+USING Siemens.Simatic.Communication.OUC;
 USING System.DateTime;
 
 NAMESPACE Simatic.Ax.sntp
@@ -195,7 +195,7 @@ NAMESPACE Simatic.Ax.sntp
             diagnostics                         := statEmptyDiagnostics;
             statDisablingCompleted              := FALSE;
 
-            statConParam.InterfaceId            := hwID;
+            statConParam.HardwareID            := hwID;
             statConParam.ConnectionID           := connID;
             statConParam.ConnectionType         := ConnectionType#Udp;
             statConParam.ActiveEstablished      := FALSE;
