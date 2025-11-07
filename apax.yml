@@ -23,7 +23,7 @@ apaxVersion: 3.4.2
 # Dependencies
 devDependencies:
   '@ax/sdk': 2411.1.0
-  "@simatic-ax/snippetscollection": 1.0.0
+  "@simatic-ax/snippetscollection": 1.1.0
 
 dependencies:
   "@ax/simatic-1500-clocks": ^8.0.0
