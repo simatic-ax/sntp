@@ -55,7 +55,7 @@ jobs:
           version: ${{ github.event.release.tag_name }}
 
       - name: Package source code
-        uses: simatic-ax/actions/apax-pack@v3
+        uses: simatic-ax/actions/apax-pack@v4
         with:
           key: ${{ secrets.APAX_SIGNKEY }}
           key-version: "v2"
