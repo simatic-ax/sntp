@@ -12,7 +12,7 @@
       "@ax/system-serde": "^10.4.66"
     },
     "devDependencies": {
-      "@ax/sdk": "2510.21.0",
+      "@ax/sdk": "^2510.21.0",
       "@simatic-ax/snippetscollection": "1.1.0"
     },
     "catalogs": {
