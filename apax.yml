@@ -28,13 +28,13 @@ publicKeys:
 catalogs:
   "@ax/simatic-ax": ^2510.0.0
 devDependencies:
-  '@ax/sdk': 2510.8.0
+  '@ax/sdk': ^2510.21.0
   "@simatic-ax/snippetscollection": 1.1.0
 
 dependencies:
-  "@ax/simatic-clocks": ^11.0.0
-  "@ax/simatic-communication": ^11.0.0
-  "@ax/system-serde": ^10.2.0
+  "@ax/simatic-clocks": ^11.0.116
+  "@ax/simatic-communication": ^11.0.2
+  "@ax/system-serde": ^10.4.66
 
 # Project variables
 variables:
