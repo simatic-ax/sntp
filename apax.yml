@@ -11,7 +11,7 @@ repository:
   url: https://github.com/simatic-ax/sntp
 # Targets which will be compiled with 'apax build'
 targets:
-  - "1500"
+  - "s7"
   - "llvm"
 
 # Registry information, to other npm-registries where Apax packages are located
@@ -28,7 +28,7 @@ publicKeys:
 catalogs:
   "@ax/simatic-ax": ^2510.0.0
 devDependencies:
-  '@ax/sdk': ^2510.21.0
+  '@ax/sdk': ^2510.20.0
   "@simatic-ax/snippetscollection": 1.1.0
 
 dependencies:
