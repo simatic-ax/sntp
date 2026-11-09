@@ -30,8 +30,8 @@
 // 05.00.00 | 29.10.2024 | Contiweb B.V.          | Migration to Simatic AX
 //=============================================================================
 
-USING Siemens.Simatic.Clocks;
-USING Siemens.Simatic.Communication.OUC;
+USING Siemens.S7.Clocks;
+USING Siemens.S7.Communication.OUC;
 USING System.DateTime;
 
 NAMESPACE Simatic.Ax.sntp
